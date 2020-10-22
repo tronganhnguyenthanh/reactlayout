@@ -1,0 +1,71 @@
+  html{
+    overflow-x:hidden;
+    overflow-y:scroll;
+   }
+   
+   .bg-image{
+     width:100%;
+     background-image:url('../images/section-bg5\ 1.jpg');
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:700px;
+   }
+   
+   h1{
+    font-size:48px;
+    font-family:'Roboto','Regular';
+    position:absolute;
+    top:44%;
+    left:39%;
+   }
+   
+   p{
+    font-size:24px;
+    font-family:'Roboto','Regular';
+    position:absolute;
+    top:52%;
+    left:45%;
+   }
+   
+   .menu > a{
+     text-decoration:none;
+     font-size:18px;
+     font-family:'Roboto','Regular';
+   }
+   
+   .menu{
+     position:absolute;
+     top:2%;
+   }
+   
+   .menu > a:hover{
+     color:#FA8112 !important;
+   }
+   
+   @media(max-width:576px){
+     .bg-image{
+       background-size:100%;
+       margin-top:2%;
+       margin-left:1%;
+     }
+     h1{
+      font-size:32px;
+      font-family:'Roboto','Regular';
+      position:absolute;
+      top:20%;
+      left:22%;
+     }
+     p {
+       font-size: 24px;
+       font-family: 'Roboto','Regular';
+       position: absolute;
+       top:24%;
+       left:29%;
+     }
+     .menu{
+       display:flex;
+       flex-direction:column;
+       position:absolute;
+       left:25%;
+     }
+   }
